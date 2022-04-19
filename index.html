@@ -1,0 +1,46 @@
+Carga de Un socio de Club
+nombre, domicilio, documento, sexo, deportes que practica, 
+colocar un boton de imagen haciendo el saludo y otro boton con imagen
+ para cancelar la carga (mostrar un cartel que diga "anulacion de carga")
+
+
+ <!DOCTYPE html>
+ <html lang=""es">
+<head>
+     <title>Formulario del Socio</title>
+     <meta charset="utf-8">
+
+</head>
+
+
+<body>
+    <h3>Ingrese los siguientes datos:</h3><br>
+    <form name="datos" method="get" action="#" enctype="text/plain">
+
+        Nombre:<br>
+        <input type="text" name="nombre_socio" size="20" value="escriba aqui su nombre"><br>
+        Domicilio:<br>
+        <input type="text" name="domicilio_socio" size="50" ><br>
+        Documento:<br>
+        <input type="number" name="documento_socio" size="8"><br>
+        Sexo:<br>
+        Masculino <input type="radio" name="sexo_socio" value="masculino"><br>
+        Femenino <input type="radio" name="sexo_socio" value="femenino"><br>
+        Indefinido <input type="radio" name="sexo_socio" value="indefinido"><br>
+        Deportes?:<br>
+        Futbol<input type="checkbox" name="dpt_empleado" value="futbol"><br>
+        Voley<input type="checkbox" name="dpt_empleado" value="voley"><br>
+        Tenis<input type="checkbox" name="dpt_empleado" value="tenis"><br>
+        Ping-pong<input type="checkbox" name="dpt_empleado" value="ping-pong"><br>
+        Basquet<input type="checkbox" name="dpt_empleado" value="basquet"><br>
+        <input type="button" name="btn_saludo" value="Saludo!" onclick="alert('Hola!');"><br>
+
+        <video src="ositos.mp4" loop muted controls preload="none"></video>
+            <audio src="sandra.mp3" controls preload="none" loop muted></audio>
+
+    </form>
+ <input type="image" name="btn_saludo2" src="imagenes/btn_hola.jpg" width="100" height="100"
+ onclick="alert('Hola Web I, cómo están?');">
+</body>
+ </html>
+
